@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-grotesk: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  --ges-navy: #1f265a;
+  --ges-crimson: #e53238;
+  --ges-cobalt: #3365b0;
+  --ges-dark: #0b1026;
+  --ges-canvas: #ffffff;
+  --ges-offwhite: #f6f8fb;
+}
+
+/* Base Editorial Architectural Styling */
+html {
+  scroll-behavior: smooth;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: #1f265a;
+  background-color: #ffffff;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #1f265a;
+  color: #ffffff;
+}
+
+/* Custom architectural hairline borders */
+.hairline-b {
+  border-bottom: 1px solid rgba(31, 38, 90, 0.12);
+}
+
+.hairline-t {
+  border-top: 1px solid rgba(31, 38, 90, 0.12);
+}
+
+.hairline-r {
+  border-right: 1px solid rgba(31, 38, 90, 0.12);
+}
+
+.hairline-l {
+  border-left: 1px solid rgba(31, 38, 90, 0.12);
+}
+
+.hairline-dark-b {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.hairline-dark-t {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.hairline-dark-r {
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Architectural Framing Matting */
+.architectural-frame {
+  position: relative;
+}
+
+.architectural-frame::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(31, 38, 90, 0.15);
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* Corner tick marks for architectural drawings */
+.corner-ticks {
+  position: relative;
+}
+
+.corner-ticks::before,
+.corner-ticks::after {
+  content: "+";
+  position: absolute;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1;
+  color: #e53238;
+  opacity: 0.7;
+}
+
+.corner-ticks::before {
+  top: -6px;
+  left: -4px;
+}
+
+.corner-ticks::after {
+  bottom: -6px;
+  right: -4px;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Cairo", "Tahoma", sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] .hairline-r {
+  border-right: none;
+  border-left: 1px solid rgba(31, 38, 90, 0.12);
+}
+
+[dir="rtl"] .hairline-l {
+  border-left: none;
+  border-right: 1px solid rgba(31, 38, 90, 0.12);
+}
+
+/* Clean minimal focus outlines */
+:focus-visible {
+  outline: 2px solid #e53238;
+  outline-offset: 2px;
+}

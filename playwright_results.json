@@ -1,0 +1,154 @@
+{
+  "timestamp": "2026-10-16T10:07:54.898Z",
+  "totalTests": 24,
+  "passedCount": 24,
+  "failedCount": 0,
+  "consoleErrorsCount": 0,
+  "consoleErrors": [],
+  "results": [
+    {
+      "test": "Responsive Viewport: mobile-320 (320x640)",
+      "passed": true,
+      "details": "No horizontal overflow",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\home_mobile-320.png"
+    },
+    {
+      "test": "Responsive Viewport: mobile-360 (360x740)",
+      "passed": true,
+      "details": "No horizontal overflow",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\home_mobile-360.png"
+    },
+    {
+      "test": "Responsive Viewport: mobile-375-iphone (375x812)",
+      "passed": true,
+      "details": "No horizontal overflow",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\home_mobile-375-iphone.png"
+    },
+    {
+      "test": "Responsive Viewport: mobile-390-iphone14 (390x844)",
+      "passed": true,
+      "details": "No horizontal overflow",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\home_mobile-390-iphone14.png"
+    },
+    {
+      "test": "Responsive Viewport: mobile-430-iphone14promax (430x932)",
+      "passed": true,
+      "details": "No horizontal overflow",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\home_mobile-430-iphone14promax.png"
+    },
+    {
+      "test": "Responsive Viewport: tablet-768-ipad (768x1024)",
+      "passed": true,
+      "details": "No horizontal overflow",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\home_tablet-768-ipad.png"
+    },
+    {
+      "test": "Responsive Viewport: laptop-1024 (1024x768)",
+      "passed": true,
+      "details": "No horizontal overflow",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\home_laptop-1024.png"
+    },
+    {
+      "test": "Responsive Viewport: desktop-1440 (1440x900)",
+      "passed": true,
+      "details": "No horizontal overflow",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\home_desktop-1440.png"
+    },
+    {
+      "test": "Responsive Viewport: widescreen-1920 (1920x1080)",
+      "passed": true,
+      "details": "No horizontal overflow",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\home_widescreen-1920.png"
+    },
+    {
+      "test": "Page Load: /",
+      "passed": true,
+      "details": "Title: \"GES Quality Education | Beyond the Classroom — Premier Education Group in Oman\"",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\page_home_desktop.png"
+    },
+    {
+      "test": "Page Load: /about",
+      "passed": true,
+      "details": "Title: \"GES Quality Education | Beyond the Classroom\"",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\page_about_desktop.png"
+    },
+    {
+      "test": "Page Load: /schools",
+      "passed": true,
+      "details": "Title: \"GES Quality Education | Beyond the Classroom\"",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\page_schools_desktop.png"
+    },
+    {
+      "test": "Page Load: /operational",
+      "passed": true,
+      "details": "Title: \"GES Quality Education | Beyond the Classroom\"",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\page_operational_desktop.png"
+    },
+    {
+      "test": "Page Load: /partner",
+      "passed": true,
+      "details": "Title: \"GES Quality Education | Beyond the Classroom\"",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\page_partner_desktop.png"
+    },
+    {
+      "test": "Page Load: /careers",
+      "passed": true,
+      "details": "Title: \"GES Quality Education | Beyond the Classroom\"",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\page_careers_desktop.png"
+    },
+    {
+      "test": "Page Load: /news",
+      "passed": true,
+      "details": "Title: \"GES Quality Education | Beyond the Classroom\"",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\page_news_desktop.png"
+    },
+    {
+      "test": "Page Load: /contact",
+      "passed": true,
+      "details": "Title: \"GES Quality Education | Beyond the Classroom\"",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\page_contact_desktop.png"
+    },
+    {
+      "test": "Meeting Request Modal Submission & Confirmation",
+      "passed": true,
+      "details": "Received confirmation with reference number",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\modal_meeting_confirmed.png"
+    },
+    {
+      "test": "Video Story Modal Launch with YouTube Embed",
+      "passed": true,
+      "details": "16:9 iframe embed mounted correctly",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\modal_video_story.png"
+    },
+    {
+      "test": "Search Command Palette & Instant Filter",
+      "passed": true,
+      "details": "Returned 7 matching results for \"Shomoukh\"",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\modal_search_palette.png"
+    },
+    {
+      "test": "Mobile Navigation Drawer on iPhone (390px)",
+      "passed": true,
+      "details": "Drawer opened with institution links and contact info without clipping",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\mobile_navigation_drawer.png"
+    },
+    {
+      "test": "Careers Application Form with CV Upload & Logging",
+      "passed": true,
+      "details": "Application logged into Stage 02 review",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\careers_application_confirmed.png"
+    },
+    {
+      "test": "Contact Page Dispatch Submission",
+      "passed": true,
+      "details": "Official communication reference issued",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\contact_dispatch_confirmed.png"
+    },
+    {
+      "test": "Arabic RTL Toggle & Document Direction",
+      "passed": true,
+      "details": "HTML dir=\"rtl\" set dynamically",
+      "screenshot": "C:\\Users\\LUTTA\\Downloads\\GES-t4\\screenshots\\arabic_rtl_preview.png"
+    }
+  ]
+}
